@@ -54,8 +54,8 @@
  * Read and write
  * Free when use free func.
 ### Difference between Heap and Stack
- * Stack is fixed memmory capacity 1MB with window and 8MB Linux and faster to access than Heap. Auto free when out func. 
- * Heap is dynamic allocated memmory with dynamic memmory capacity and free by programmer.
+ * Stack là bộ nhớ cứng dung lượng 1MB với window và 8MB Linux và truy cập nhanh hơn Heap. Auto free when out func. 
+ * Heap is bộ nhớ động với dynamic memmory capacity and free by programmer.
 ### Error
  * Stack overflow (xử dụng quá nhiều vùng nhớ)
  * Heap overflow (không giải phóng vùng nhớ)
