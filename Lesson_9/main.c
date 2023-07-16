@@ -118,7 +118,7 @@ void sort(uint16_t arr[], uint64_t length)
     
 // }
 
-uint16_t find_Number2(uint16_t arr[], uint64_t length, uint16_t target_num)
+int find_Number2(uint16_t arr[], uint64_t length, uint16_t target_num)
 {
     uint16_t first = 0;
     uint16_t last = length - 1;
@@ -146,18 +146,18 @@ uint16_t find_Number2(uint16_t arr[], uint64_t length, uint16_t target_num)
     }
 
     printf("Not found");
-    return 0; 
+    return -1; 
 }
 
 
 
 int main(int argc, char const *argv[])
 {
-   uint16_t *array = createArray(1000);
+   uint16_t *array = createArray(10000);
 
-   sort(array, 1000);
+   sort(array, 10000);
 
-   int num_index = find_Number2(array,1000,120);
+   int num_index = find_Number2(array,10000,120);
 
    printf("%d : ", num_index);
    printf("%d\n ", array[num_index]);
