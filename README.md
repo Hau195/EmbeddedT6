@@ -1,5 +1,5 @@
 # EmbeddedT6
-## Lession 4: Build process in C
+## Lesson 4: Build process in C
 ![Build process](https://fastbitlab.com/wp-content/uploads/2022/07/Figure-2-1-800x409.png)
 
 ### Preprocessing là bước đầu tiên trong quá trình build của C
@@ -19,7 +19,7 @@
 ![Linker](https://media.licdn.com/dms/image/C4E12AQE48SgStVLuMA/article-inline_image-shrink_1000_1488/0/1567694279315?e=1692230400&v=beta&t=5pVG0bwLO2OtYWj8W6HvFUrESDrECaSz3FimkivtKE8)
  * File đầu vào của quá trình này là *.o file, and c standard libraries .
  *  File đầu ra của quá trình này là relocatable file.
-## Lession 5: Pointer
+## Lesson 5: Pointer
 ### Integer pointer:
  * Pointer trỏ đến integer variable int * <name>.
 ### Void pointer:
@@ -32,7 +32,7 @@
      void(*ptr)(int, int);
 ### Pointer to pointer:
  * Con trỏ trỏ đến địa chỉ của con trỏ kháckhác.
-## Lession 6: Memory Layout
+## Lesson 6: Memory Layout
 ![Memory layout](https://media.geeksforgeeks.org/wp-content/uploads/memoryLayoutC.jpg)
 ### Text
  * Chỉ đọc, chứa các chỉ dẫn, hằng số
@@ -61,13 +61,23 @@
  * Heap overflow (không giải phóng vùng nhớ)
  * Memmory leak.
  * Dangling pointer.
-## Lession 7: Variable type
+## Lesson 7: Variable type
 ### Static
- *  A static variable preserves its previous value in its previous scope and is not initialized again in the new scope.
- *  Static variables are allocated memory in the data segment, not the stack segment.
- *  Static variables (like global variables) are initialized as 0 if not initialized explicitly.
- *  Static global variables and functions are also possible in C/C++. The purpose of these is to limit the scope of a variable or function to a file. Access to static functions is restricted to the file where they are declared
+ *  Biến static là biến chỉ khởi tạo 1 lần trong khi chạy chương trình.
+ *  Biến static chứa trong phân vùng data không phải stack
+ *  Được khởi tạo = 0 nếu k được khởi tạo từ programmer.
+ *  Biến static toàn cục và hàm static toàn cục chỉ được truy cập trong cyngf 1 file nếu khác thì không truy cập được.
 ### Extern
- * Extern keyword in C applies to C variables (data objects) and C functions. Basically, the extern keyword extends the visibility of the C variables and C functions.
+ * Từ khóa extern dùng để tìm kiếm biến đó ngoài phạm vi của file
 ### Volatile
- * Variable that changing while program is running and it used to tell compiler not to optimaze this line code.
+ * Là biến thay đổi liên tục khi chương trình chạy và dùng để nói với chương trình là không được tối ưu biến đó.
+## Lesson 7: Binary search
+
+## Lesson 8: Linked list và binary search
+
+## Lesson 9: C++: class
+
+## Lesson 10: C++: OOP
+
+
+
