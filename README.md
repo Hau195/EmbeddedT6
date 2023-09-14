@@ -76,8 +76,18 @@
 ## Lesson 8: Linked list và binary search
 
 ## Lesson 9: C++: class
-
-## Lesson 10: C++: OOP
+### Public:
+* Có thể truy cập ở mọi nơi
+### Private:
+* Chỉ Protected
+* Kế thừa Private:
+  - Ở class cha là public và protected thì lớp con là Private
+### Trừu tường
+* Để cấu thành lên chương trình lớn thì cần các chương trình con nhưng bị giấu người dùng chỉ có thể truy cập ở chương trình lớn.
+### Đóng gói
+* Chỉ cho pháp truy cập các properties thông qua các method.
+### Đa hình
+* 2 hàm cùng tên khác input argument
 
 
 
