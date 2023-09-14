@@ -85,6 +85,7 @@
 ## Lesson 10: C++ OOP
 ### Kế thừa
 * Kế thừa Public:
+  - Ở class cha là public và protected thì lớp con giữ nguyên
 * Kế thừa Protected:
   - Ở class cha là public và protected thì lớp con là Protected
 * Kế thừa Private:
