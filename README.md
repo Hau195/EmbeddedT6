@@ -78,8 +78,15 @@
 ## Lesson 9: C++: class
 ### Public:
 * Có thể truy cập ở mọi nơi
+### Protected:
+* Truy cập ở nội bộ class và class con
 ### Private:
-* Chỉ Protected
+* Chỉ nội bộ class
+## Lesson 10: C++ OOP
+### Kế thừa
+* Kế thừa Public:
+* Kế thừa Protected:
+  - Ở class cha là public và protected thì lớp con là Protected
 * Kế thừa Private:
   - Ở class cha là public và protected thì lớp con là Private
 ### Trừu tường
