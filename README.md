@@ -98,8 +98,8 @@
 ### Đa hình
 * 2 hàm cùng tên khác input argument
 * Template là vid dụ tính đa hình
-  syntax: template <typename bien1, >
-##Lesson11: C++ vector, list
+  syntax: template <typename bien1 >
+## Lesson11: C++ vector, list
 ### Vector:
 * syntax: vector<int> vt;
 * Tạo ra mảng động
@@ -107,7 +107,7 @@
 Vd: array.insert(array.begin()+2,35);
 * For (int item : array)
   {
-       cout<<item<<;
+       cout<<item<<endl;
   }
 ### List:
 * Các vị trí vùng nhớ không liên tiếp nhau
@@ -115,6 +115,6 @@ Vd: array.insert(array.begin()+2,35);
      list<int> lt;
 * Cách duyệt list
   list<int>::iterator it;
-  for(it = lt.begin(); it != lt.end(); it++)
+* for(it = lt.begin(); it != lt.end(); it++)
   {
   }
