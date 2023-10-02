@@ -1,5 +1,18 @@
 {
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "compare": "cpp",
+        "type_traits": "cpp",
+        "ostream": "cpp",
+        "list": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "typeinfo": "cpp"
     }
 }
